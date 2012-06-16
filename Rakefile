@@ -1,4 +1,4 @@
-#   Copyright (c) 2010-2011, Diaspora Inc.  This file is
+#   Copyright (c) 2012-2013, click and share Inc.  This file is
 #   licensed under the Affero General Public License version 3 or later.  See
 #   the COPYRIGHT file.
 
@@ -10,10 +10,10 @@ require 'rake'
 require 'resque/tasks'
 
 # for rake 0.9.0
-module Diaspora
+module Clickandshare
   class Application
     include Rake::DSL
   end
 end
 
-Diaspora::Application.load_tasks
+Clickandshare::Application.load_tasks
